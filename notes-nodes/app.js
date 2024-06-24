@@ -26,5 +26,12 @@ fs.appendFileSync("hello.txt", "hello " + user.username + "!")
 // console.log(res)
 
 let sum = notes.add(9, -2)
+const _ = require("lodash")
 
-console.log(sum)
+console.log(_.isString(true))
+console.log(_.isString("Lokson"))
+
+let filteredArray = _.uniq(["lokson", 1, "lokson", 1, 2, 3, 4])
+console.log(filteredArray)
+
+console.log("Result: "+ sum)
