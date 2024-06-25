@@ -20,7 +20,7 @@ fs.appendFileSync("hello.txt", "hello " + user.username + "!")
 
 // fs.appendFileSync("hello1.txt", `hello, how are you ${user.username}? I hope you are good?`)
 
-// fs.appendFileSync("greettings.txt", `Hello ${user.username}! You are ${notes.age}.`)
+fs.appendFileSync("app1.js", "")
 
 // let res = notes.addNote();
 // console.log(res)
@@ -31,7 +31,7 @@ const _ = require("lodash")
 console.log(_.isString(true))
 console.log(_.isString("Lokson"))
 
-let filteredArray = _.uniq(["lokson", 1, "lokson", 1, 2, 3, 4])
+let filteredArray = _.uniq(["lokson"])
 console.log(filteredArray)
 
 console.log("Result: "+ sum)
